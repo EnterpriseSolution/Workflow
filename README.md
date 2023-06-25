@@ -31,4 +31,5 @@ Where Order_No = '<%SalesOrderEntity.OrderNo%>'
 Order By Line_No
 
 # Guide
-- Run against with SQL Server to create a new workflow database
+- Run against with SQL Server to create a new workflow database　
+- Tracking_Schema.sql Tracking_Logic.sql SqlPersistenceService_Schema.sql SqlPersistenceService_Logic.sql
