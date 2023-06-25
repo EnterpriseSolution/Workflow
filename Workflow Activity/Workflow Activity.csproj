@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BEC32CFE-CD32-4C9A-9090-F2A494E490E5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ActivityLibrary</RootNamespace>
+    <AssemblyName>Activity</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <Reference Include="adodb, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>C:\Program Files\Microsoft.NET\Primary Interop Assemblies\adodb.dll</HintPath>
+    </Reference>
+    <Reference Include="Avatar.ERP.BusinessLogic, Version=3.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bin\Avatar.ERP.BusinessLogic.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common">
+      <HintPath>Library\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data">
+      <HintPath>Library\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder">
+      <HintPath>Library\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="SD.LLBLGen.Pro.DQE.SqlServer.NET20">
+      <HintPath>Library\SD.LLBLGen.Pro.DQE.SqlServer.NET20.dll</HintPath>
+    </Reference>
+    <Reference Include="SD.LLBLGen.Pro.ORMSupportClasses.NET20">
+      <HintPath>Library\SD.LLBLGen.Pro.ORMSupportClasses.NET20.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Workflow.Activities" />
+    <Reference Include="System.Workflow.ComponentModel" />
+    <Reference Include="System.Workflow.Runtime" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomActivityCondition\CustomActivityCondition.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomActivityCondition\CustomWorkflow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomActivityCondition\CustomWorkflow.Designer.cs">
+      <DependentUpon>CustomWorkflow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EntityFilterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EntityFilterForm.Designer.cs">
+      <DependentUpon>EntityFilterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FileActivity\MyActivityToolboxItem.cs" />
+    <Compile Include="FileActivity\WriteFileActivity.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FileActivity\WriteFileActivityDesigner.cs" />
+    <Compile Include="FileActivity\WriteFileActivityDesignerTheme.cs" />
+    <Compile Include="FileActivity\WriteFileActivityValidator.cs" />
+    <Compile Include="IfElseActivity.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NameForm.Designer.cs">
+      <DependentUpon>NameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Activities.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MessageTemplate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageTemplate.designer.cs">
+      <DependentUpon>MessageTemplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="QueryDesigner\DataPreviewDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueryDesigner\DataPreviewDialog.Designer.cs">
+      <DependentUpon>DataPreviewDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QueryDesigner\FilterEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueryDesigner\FilterEditorForm.Designer.cs">
+      <DependentUpon>FilterEditorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QueryDesigner\OleDbConnString.cs" />
+    <Compile Include="QueryDesigner\OleDbSchema.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="QueryDesigner\QueryBuilder.cs" />
+    <Compile Include="QueryDesigner\QueryDesignerDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueryDesigner\QueryDesignerDialog.Designer.cs">
+      <DependentUpon>QueryDesignerDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QueryDesigner\QueryField.cs" />
+    <Compile Include="QueryDesigner\QueryPropertiesDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueryDesigner\QueryPropertiesDialog.Designer.cs">
+      <DependentUpon>QueryPropertiesDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RuleParser.cs" />
+    <Compile Include="Rule\CodeDomExpParser\Enums.cs" />
+    <Compile Include="Rule\CodeDomExpParser\Parser.cs" />
+    <Compile Include="Rule\CodeDomExpParser\Token.cs" />
+    <Compile Include="Rule\CodeDomExpParser\Tokenizer.cs" />
+    <Compile Include="Rule\DmCodeDom\Assignment.cs" />
+    <Compile Include="Rule\DmCodeDom\Declaration.cs" />
+    <Compile Include="Rule\DmCodeDom\DmCdStmt.cs" />
+    <Compile Include="Rule\DmCodeDom\ExprStmt.cs" />
+    <Compile Include="Rule\DmCodeDom\ForLoop.cs" />
+    <Compile Include="Rule\DmCodeDom\IfElse.cs" />
+    <Compile Include="Rule\Rule\DmRule.cs" />
+    <Compile Include="Rule\Rule\DmRulesConfigHandler.cs" />
+    <Compile Include="Rule\Rule\DmRuleSet.cs" />
+    <Compile Include="Rule\Rule\DmRuleTypeSet.cs" />
+    <Compile Include="Rule\Rule\RuleExec.cs" />
+    <Compile Include="SendMessageActivity.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SQLActivity.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SQLEditor.cs" />
+    <Compile Include="SQLEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SQLEditorForm.Designer.cs">
+      <DependentUpon>SQLEditorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EntityFilter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EntityFilter.Designer.cs">
+      <DependentUpon>EntityFilter.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="EntityFilterForm.resx">
+      <DependentUpon>EntityFilterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageTemplate.resx">
+      <DependentUpon>MessageTemplate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NameForm.resx">
+      <DependentUpon>NameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueryDesigner\DataPreviewDialog.resx">
+      <DependentUpon>DataPreviewDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueryDesigner\FilterEditorForm.resx">
+      <DependentUpon>FilterEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueryDesigner\QueryDesignerDialog.resx">
+      <DependentUpon>QueryDesignerDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueryDesigner\QueryPropertiesDialog.resx">
+      <DependentUpon>QueryPropertiesDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQLEditorForm.resx">
+      <DependentUpon>SQLEditorForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EntityFilter.resx">
+      <DependentUpon>EntityFilter.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Decision.png" />
+    <Content Include="Resources\DecisionBranch.bmp" />
+    <Content Include="Resources\write.gif" />
+    <Content Include="Resources\write.ico" />
+    <None Include="Resources\write1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings1.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+</Project>
