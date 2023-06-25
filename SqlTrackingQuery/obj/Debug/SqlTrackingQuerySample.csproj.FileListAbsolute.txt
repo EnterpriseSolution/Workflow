@@ -1,0 +1,41 @@
+C:\Users\Administrator\Downloads\sqltrackingquerysample-master\SqlTrackingQuerySample\obj\Debug\SqlTrackingQuerySample.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Downloads\sqltrackingquerysample-master\SqlTrackingQuerySample\obj\Debug\SqlTrackingQuerySample.AssemblyLoadForm.resources
+C:\Users\Administrator\Downloads\sqltrackingquerysample-master\SqlTrackingQuerySample\obj\Debug\SqlTrackingQuerySample.MainForm.resources
+C:\Users\Administrator\Downloads\sqltrackingquerysample-master\SqlTrackingQuerySample\obj\Debug\SqlTrackingQuerySample.Properties.Resources.resources
+C:\Users\Administrator\Downloads\sqltrackingquerysample-master\SqlTrackingQuerySample\obj\Debug\SqlTrackingQuerySample.SelectDbForm.resources
+C:\Users\Administrator\Downloads\sqltrackingquerysample-master\SqlTrackingQuerySample\obj\Debug\SqlTrackingQuerySample.csproj.GenerateResource.Cache
+C:\Users\Administrator\Downloads\sqltrackingquerysample-master\SqlTrackingQuerySample\bin\Debug\SqlTrackingQuerySample.exe.config
+C:\Users\Administrator\Downloads\sqltrackingquerysample-master\SqlTrackingQuerySample\bin\Debug\SqlTrackingQuerySample.exe
+C:\Users\Administrator\Downloads\sqltrackingquerysample-master\SqlTrackingQuerySample\bin\Debug\SqlTrackingQuerySample.pdb
+C:\Users\Administrator\Downloads\sqltrackingquerysample-master\SqlTrackingQuerySample\obj\Debug\SqlTrackingQuerySample.exe
+C:\Users\Administrator\Downloads\sqltrackingquerysample-master\SqlTrackingQuerySample\obj\Debug\SqlTrackingQuerySample.pdb
+C:\Program Files\Enterprise Solution\Program_20210729\SqlTrackingQuerySample.exe.config
+C:\Program Files\Enterprise Solution\Program_20210729\SqlTrackingQuerySample.exe
+C:\Program Files\Enterprise Solution\Program_20210729\SqlTrackingQuerySample.pdb
+C:\Program Files\Enterprise Solution\Program_20210801\SqlTrackingQuerySample.exe.config
+C:\Program Files\Enterprise Solution\Program_20210801\SqlTrackingQuerySample.exe
+C:\Program Files\Enterprise Solution\Program_20210801\SqlTrackingQuerySample.pdb
+C:\Users\Administrator\Downloads\sqltrackingquerysample-master\SqlTrackingQuerySample\obj\Debug\SqlTrackingQuerySample.WorkflowEnquiryForm.resources
+C:\Users\Administrator\Desktop\New folder\SqlTrackingQuerySample_0802\SqlTrackingQuerySample\obj\Debug\SqlTrackingQuerySample.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\New folder\SqlTrackingQuerySample_0802\SqlTrackingQuerySample\obj\Debug\SqlTrackingQuerySample.AssemblyLoadForm.resources
+C:\Users\Administrator\Desktop\New folder\SqlTrackingQuerySample_0802\SqlTrackingQuerySample\obj\Debug\SqlTrackingQuerySample.MainForm.resources
+C:\Users\Administrator\Desktop\New folder\SqlTrackingQuerySample_0802\SqlTrackingQuerySample\obj\Debug\SqlTrackingQuerySample.Properties.Resources.resources
+C:\Users\Administrator\Desktop\New folder\SqlTrackingQuerySample_0802\SqlTrackingQuerySample\obj\Debug\SqlTrackingQuerySample.SelectDbForm.resources
+C:\Users\Administrator\Desktop\New folder\SqlTrackingQuerySample_0802\SqlTrackingQuerySample\obj\Debug\SqlTrackingQuerySample.WorkflowEnquiryForm.resources
+C:\Users\Administrator\Desktop\New folder\SqlTrackingQuerySample_0802\SqlTrackingQuerySample\obj\Debug\SqlTrackingQuerySample.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\New folder\SqlTrackingQuerySample_0802\SqlTrackingQuerySample\obj\Debug\SqlTrackingQuerySample.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\New folder\SqlTrackingQuerySample_0802\SqlTrackingQuerySample\obj\Debug\SqlTrackingQuerySample.exe
+C:\Users\Administrator\Desktop\New folder\SqlTrackingQuerySample_0802\SqlTrackingQuerySample\obj\Debug\SqlTrackingQuerySample.pdb
+Y:\2023.6\SqlTrackingQuerySample_0802\SqlTrackingQuerySample\obj\Debug\SqlTrackingQuerySample.csproj.AssemblyReference.cache
+Y:\2023.6\SqlTrackingQuerySample_0802\SqlTrackingQuerySample\obj\Debug\SqlTrackingQuerySample.AssemblyLoadForm.resources
+Y:\2023.6\SqlTrackingQuerySample_0802\SqlTrackingQuerySample\obj\Debug\SqlTrackingQuerySample.MainForm.resources
+Y:\2023.6\SqlTrackingQuerySample_0802\SqlTrackingQuerySample\obj\Debug\SqlTrackingQuerySample.Properties.Resources.resources
+Y:\2023.6\SqlTrackingQuerySample_0802\SqlTrackingQuerySample\obj\Debug\SqlTrackingQuerySample.SelectDbForm.resources
+Y:\2023.6\SqlTrackingQuerySample_0802\SqlTrackingQuerySample\obj\Debug\SqlTrackingQuerySample.WorkflowEnquiryForm.resources
+Y:\2023.6\SqlTrackingQuerySample_0802\SqlTrackingQuerySample\obj\Debug\SqlTrackingQuerySample.csproj.GenerateResource.cache
+Y:\2023.6\SqlTrackingQuerySample_0802\SqlTrackingQuerySample\obj\Debug\SqlTrackingQuerySample.csproj.CoreCompileInputs.cache
+Y:\2023.6\SqlTrackingQuerySample_0802\SqlTrackingQuerySample\obj\Debug\SqlTrackingQuerySample.exe
+Y:\2023.6\SqlTrackingQuerySample_0802\SqlTrackingQuerySample\obj\Debug\SqlTrackingQuerySample.pdb
+Y:\Program Files\Enterprise Solution\Program_20210801\SqlTrackingQuerySample.exe.config
+Y:\Program Files\Enterprise Solution\Program_20210801\SqlTrackingQuerySample.exe
+Y:\Program Files\Enterprise Solution\Program_20210801\SqlTrackingQuerySample.pdb

@@ -1,0 +1,17 @@
+D:\GitHub\Workflow\SqlTrackingQuery\obj\Debug\SqlTrackingQuery.csproj.AssemblyReference.cache
+D:\GitHub\Workflow\SqlTrackingQuery\obj\Debug\SqlTrackingQuerySample.AssemblyLoadForm.resources
+D:\GitHub\Workflow\SqlTrackingQuery\obj\Debug\SqlTrackingQuerySample.MainForm.resources
+D:\GitHub\Workflow\SqlTrackingQuery\obj\Debug\SqlTrackingQuerySample.SelectDbForm.resources
+D:\GitHub\Workflow\SqlTrackingQuery\obj\Debug\SqlTrackingQuerySample.WorkflowEnquiryForm.resources
+D:\GitHub\Workflow\SqlTrackingQuery\obj\Debug\SqlTrackingQuery.csproj.GenerateResource.cache
+D:\GitHub\Workflow\SqlTrackingQuery\obj\Debug\SqlTrackingQuery.csproj.CoreCompileInputs.cache
+D:\GitHub\Workflow\SqlTrackingQuery\obj\Debug\SqlTrackingQuery.Properties.Resources.resources
+D:\Program Files\Enterprise Solution\Program_20210801\SqlTrackingQuery.exe.config
+D:\Program Files\Enterprise Solution\Program_20210801\SqlTrackingQuery.exe
+D:\Program Files\Enterprise Solution\Program_20210801\SqlTrackingQuery.pdb
+D:\GitHub\Workflow\SqlTrackingQuery\obj\Debug\SqlTrackingQuery.exe
+D:\GitHub\Workflow\SqlTrackingQuery\obj\Debug\SqlTrackingQuery.pdb
+D:\GitHub\Workflow\SqlTrackingQuery\bin\Debug\SqlTrackingQuery.exe.config
+D:\GitHub\Workflow\SqlTrackingQuery\bin\Debug\SqlTrackingQuery.exe
+D:\GitHub\Workflow\SqlTrackingQuery\bin\Debug\SqlTrackingQuery.pdb
+D:\GitHub\Workflow\SqlTrackingQuery\obj\Debug\SqlTrackingQuery.csproj.CopyComplete
